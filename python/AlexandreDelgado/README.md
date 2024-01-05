@@ -53,6 +53,8 @@ export PATH=$PATH:<path to script>
 ou a `/usr/local/bin`
 
 
+
+
 4. Criar ficheiro `tasklist.txt` no home/username directory (~)
 
 
@@ -70,4 +72,6 @@ Este script modifica o ficheiro "tasklist.py", mas há sempre o ficheiro preinst
 
 ### Adicionar como alias
 
-> alias taskpy='python <path to script>.py'
+```
+alias taskpy='python <path to script>.py'
+```
