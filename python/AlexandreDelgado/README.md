@@ -1,57 +1,58 @@
-Projeto Python Recrutamento Hackerschool 2023-2024
+# Projeto Python Recrutamento Hackerschool 2023-2024
 
-Alexandre Carapeto Delgado
-
-
-Esta pasta contém:
-
-este ficheiro README, o shell script setup.sh, o ficheiro tasklist.py e o ficheiro preinstall_tasklist.py
-
-O tasklist.py será alterado depois do setup.sh ser corrido (mas é apenas uma linha que é adicionada)
-
-O preinstall_tasklist.py existe como backup e guardar o script original
+## Alexandre Carapeto Delgado
 
 
+## Esta pasta contém:
 
-Como correr/instalar o script
+este ficheiro `README.md`, o shell script `setup.sh`, o ficheiro `tasklist.py` e o ficheiro `preinstall_tasklist.py`
+
+O `tasklist.py` será alterado depois do `setup.sh` ser corrido (mas é apenas uma linha que é adicionada)
+
+O `preinstall_tasklist.py` existe como backup e guardar o script original
 
 
 
-Fazer apenas python3 tasklist.py
+## Como correr/instalar o script
 
-(é preciso criar ficheiro "tasklist.txt" no directory /home/username/)
+
+
+### Fazer apenas python3 tasklist.py
+
+(é preciso criar ficheiro `tasklist.txt` no directory /home/username/)
 
 
 
 ----ou----
 
 
-Adicionar como shell command:
+### Adicionar como shell command:
 
 
-Adicionar shebang line na primeira linha do ficheiro com o environment correto
+1. Adicionar shebang line na primeira linha do ficheiro com o environment correto
 
-#!/usr/bin/python3
+`#!/usr/bin/python3`
 
 
  ^este funcionou para mim, mas poderá ter que ser
 
-#!/usr/bin/python ou #!/usr/bin/env python
+`#!/usr/bin/python` ou `#!/usr/bin/env python`
 
 
-Tornar script executável com
+2. Tornar script executável com
 
-chmod +x tasklist.py
+> chmod +x tasklist.py
+
+`
+3. Adicionar ao PATH (export PATH=$PATH:<path to script>) ou a /usr/local/bin
 
 
-Adicionar ao PATH (export PATH=$PATH:<path to script>) ou a /usr/local/bin
-
-
-Criar ficheiro "tasklist.txt" no home/user directory (~)
+4. Criar ficheiro `tasklist.txt` no home/username directory (~)
 
 
 
 Correr o script setup.sh como sudo para fazer estes passos 
+> sudo bash setup.sh
 
 Este script modifica o ficheiro "tasklist.py", mas há sempre o ficheiro preinstall que permanece inalterado
 
@@ -59,6 +60,6 @@ Este script modifica o ficheiro "tasklist.py", mas há sempre o ficheiro preinst
 ----ou----
 
 
-Adicionar como alias
+### Adicionar como alias
 
-alias taskpy='python <path to script>.py'
+> alias taskpy='python <path to script>.py'
