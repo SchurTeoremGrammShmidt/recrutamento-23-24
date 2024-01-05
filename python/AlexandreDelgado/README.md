@@ -41,10 +41,16 @@ O `preinstall_tasklist.py` existe como backup e guardar o script original
 
 2. Tornar script executável com
 
-> chmod +x tasklist.py
+```
+chmod +x tasklist.py
+```
 
-`
-3. Adicionar ao PATH (export PATH=$PATH:<path to script>) ou a /usr/local/bin
+
+3. Adicionar ao PATH 
+```
+export PATH=$PATH:<path to script>
+```
+ou a `/usr/local/bin`
 
 
 4. Criar ficheiro `tasklist.txt` no home/username directory (~)
@@ -52,7 +58,9 @@ O `preinstall_tasklist.py` existe como backup e guardar o script original
 
 
 Correr o script setup.sh como sudo para fazer estes passos 
-> sudo bash setup.sh
+```
+sudo bash setup.sh
+```
 
 Este script modifica o ficheiro "tasklist.py", mas há sempre o ficheiro preinstall que permanece inalterado
 
