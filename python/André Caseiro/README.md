@@ -4,7 +4,10 @@ A task manager CLI application.
 
 ## Features
 
-* *TODO*
+* Create tasks
+* List tasks
+* Edit tasks
+* Delete tasks
 
 ## Usage
 
